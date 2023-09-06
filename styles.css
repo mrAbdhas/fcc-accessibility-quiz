@@ -38,6 +38,9 @@ h1, h2{
 h2{
     border-bottom: 4px solid #dfdfe2;
 }
+p::before{
+    content: "Question #";
+}
 /* span element with the class sr-only = screen readers only
 the text inside sr-only is only for screen readers.
 The following css hides it, from being visible on the site */
