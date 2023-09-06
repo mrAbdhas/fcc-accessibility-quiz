@@ -26,19 +26,58 @@
                     <h2 id="student-info"> Student Info</h2>
                     <div class="Info"> 
                         <label for="name">Name:</label>
-                        <input id="name">
+                        <input id="name" type="text" name="name" >
                     </div>
                     <div class="Info"> 
                         <label for="email">Email:</label>
-                        <input id="email">
+                        <input id="email" type="email" name="email">
                     </div>
                     <div class="Info"> 
-                        <label for="birth-date">D.O.B:</label>
-                        <input id="birth-date">
+                        <label for="birth-date">D.O.B:<span class="sr-only">(Date of Birth)</span> </label>
+                        <input id="birth-date" type="date" name="date">
                     </div>
                 </section>
                 <section role="region" aria-labelledby="html-questions">
                     <h2 id="html-questions"> HTML</h2>
+                    <div class="question-block">
+                        <p>1</p>
+                        <fieldset class="question" name="html-questions-1">
+                            <legend>The legend element represents a caption 
+                                for the content of its parent fieldset element</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label>
+                                        <input id="q1-a1" type="radio"/>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input id="q1-a2" type="radio"/>
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset> 
+                    </div>
+                    <div class="question-block">
+                        <p>2</p>
+                        <fieldset class="question" name="html-questions-2">
+                            <legend>A label element nesting an input element 
+                                is required to have a for attribute with the
+                                 same value as the input's id</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label>
+                                        <input id="q2-a1" type="radio"/>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input id="q2-a2" type="radio"/>
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset> 
+                    </div>
                 </section>
                 <section role="region" aria-labelledby="css-questions">
                     <h2 id="css-questions"> CSS</h2>
